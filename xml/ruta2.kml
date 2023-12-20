@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+   
+    <name>Ala-Archa National Park</name>
+    
+    <Placemark>
+        <name>Parque nacional Ala Archa</name>
+        <Point>
+            <coordinates>74.4803,42.6448,2104</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Broken heart</name>
+        <Point>
+            <coordinates>74.4919,42.5561,2387</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <name>Waterfall</name>
+        <Point>
+            <coordinates>74.5178,42.5462,2782</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <name>Tepshi Plato</name>
+        <Point>
+            <coordinates>74.5033,42.5551,2590</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <LineString>
+            <coordinates>74.4919,42.5561,2387 74.5178,42.5462,2782 74.5033,42.5551,2590</coordinates>
+        </LineString>
+    </Placemark>
+        
+</Document>
+</kml>

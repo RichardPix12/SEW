@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+    <polyline points=
+    "0,300
+    100,272.0
+    200,28.0
+    300,44.84
+    400,37.52
+     500,300
+    0,300"
+    style="fill:white;stroke:red;stroke-width:4" />
+    <text x="100" y="320" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Salida de la ruta
+    </text>
+    <text x="200" y="320" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Primer Hito
+    </text>
+    <text x="300" y="320" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Segundo Hito
+    </text>
+    <text x="400" y="320" style="writing-mode: tb; glyph-orientation-vertical: 0;">
+    Tercer Hito
+    </text>
+    </svg>

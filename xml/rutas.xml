@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE rutas SYSTEM "rutas.dtd">
+
+<rutas>
+    <ruta nombre="Ruta de la seda" tipo="Senderismo" medio="En coche" horaInicio="9:00:00" horaFin ="13:00:00"
+        duracion ="28" agencia = "trivago"
+        adecuadas="Personas en buena forma fisica" lugarInicio ="Torre de Burana" dirInicio = "54 Борончиева, Tokmok, Kirguistán" recomendacion="9">
+
+        <descripcion>Sucesión interminable de cumbres nevadas y pastos verdes a sus pies</descripcion>
+
+        <coordenada longitud ="75.2502" latitud ="42.7464" altura ="2800"/> 
+
+        <referencias>
+            <referencia link="https://www.lavanguardia.com/magazine/experiencias/20210721/7609858/kirguistan-respirar-pleno-pulmon-joya-desconocida-ruta-seda.html"> </referencia>
+            <referencia link="https://www.pasonoroeste.com/viaje/kirguistan/la-ruta-de-la-seda/"> </referencia>
+            <referencia link="https://www.advantour.com/es/ruta-de-la-seda/kirguistan.htm"> </referencia>
+        </referencias>
+
+        <hitos>
+            <hito nombre ="Torre de Burana" descripcion="Esta torre solía ser parte de la Antigua ciudad de Balasagun (entre el siglo XI y XIII) y hoy en día es parte de los Sitios de Patrimonio Mundial UNESCO" distancia ="0">
+                <coordenada longitud ="75.2502" latitud ="42.7464" altura ="2800"/> 
+                <fotos>
+                     <foto link="multimedia/imagenes/rutas/torreBurana.jpg"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+
+             <hito nombre ="Mausoleo Shah-Fazil" descripcion="" distancia ="732">
+                <coordenada longitud ="71.6589" latitud ="41.4286" altura ="4484"/> 
+                <fotos>
+                    <foto link="multimedia/imagenes/rutas/shah-Fazil1.jpg"> </foto>
+                    <foto link="multimedia/imagenes/rutas/shah-Fazil2.jpg"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+
+                         <hito nombre ="Tash Rabat" descripcion="Antiguo caravasar, en piedra y bien conservado" distancia ="611">
+                <coordenada longitud ="75.2683" latitud ="40.8775" altura ="3752"/> 
+                <fotos>
+                    <foto link="multimedia/imagenes/rutas/tashRabat.JPG"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+        </hitos>
+
+    </ruta>
+
+    <ruta nombre="Ala-Archa National Park" tipo="Senderismo" medio="a pie" horaInicio="9:00" horaFin ="15:00"
+        duracion ="6" agencia = "trivago" 
+        adecuadas="personas buena forma fisica" lugarInicio ="Parque nacional Ala Archa" dirInicio = "Бишкек, Kirguistán" recomendacion="7">
+
+        <descripcion>Ruta disfrutando de las preciosas vistas del Parque Nacional de Ala-Archa y el rio Ak-Sai.</descripcion>
+        <coordenada longitud ="74.4803" latitud ="42.6448" altura ="2104"/> 
+
+
+        <referencias>
+            <referencia link="https://es.wikiloc.com/rutas-senderismo/ala-archa-national-park-broken-heart-ak-sai-waterfall-40981382#wp-40981384"> </referencia>
+            <referencia link="https://www.alltrails.com/es/ruta/kyrgyzstan/chuy/ala-archa-to-ak-sai-racek-hut-and-glacier"> </referencia>
+            <referencia link="https://www.tripadvisor.es/Attraction_Review-g293948-d735790-Reviews-Ala_Archa_Gorge-Bishkek.html"> </referencia>
+        </referencias>
+
+        <hitos>
+            <hito nombre ="Broken heart" descripcion="Roca conocida como corazon roto" distancia ="1.5">
+                <coordenada longitud ="74.4919" latitud ="42.5561" altura ="2387"/> 
+                <fotos>
+                    <foto link="multimedia/imagenes/rutas/brokenHeart.jpg"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+
+            <hito nombre ="Waterfall" descripcion="Cascada en la ruta" distancia ="3.4">
+                <coordenada longitud ="74.5178" latitud ="42.5462" altura ="2782"/> 
+                <fotos>
+                    <foto link="multimedia/imagenes/rutas/waterfall.jpg"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+
+             <hito nombre ="Tepshi Plato" descripcion="Roca conocida como lugar con buena panorámica" distancia ="2">
+                <coordenada longitud ="74.5033" latitud ="42.5551" altura ="2590"/> 
+                <fotos>
+                    <foto link="multimedia/imagenes/rutas/tepshiPlato.jpg"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+        </hitos>
+    </ruta>
+
+	<ruta nombre="Ak-Sai Waterfall" tipo="Senderismo" medio="a pie" horaInicio="09:00:00" horaFin ="12:00:00"
+        duracion ="3" agencia = "trivago" 
+        adecuadas="Cualquier personja" lugarInicio ="Parque nacional Ala Archa" dirInicio = "Бишкек, Kirguistán" recomendacion="7">
+        <descripcion>La cascada de Ak-Sai es una de las zonas más bellas y pintorescas de Kirguistán. El sendero hasta la cascada también está lleno de vistas impresionantes de valles, rica flora y fauna. Se recomienda contratar a un guía para explorar estas majestuosas montañas.</descripcion>
+        <coordenada longitud ="74.4837" latitud ="42.56107" altura ="2104"/> 
+
+
+        <referencias>
+            <referencia link="https://es.wikiloc.com/rutas-senderismo/ala-archa-national-park-broken-heart-ak-sai-waterfall-40981382#wp-40981384"> </referencia>
+            <referencia link="https://www.alltrails.com/es/ruta/kyrgyzstan/chuy/ala-archa-to-ak-sai-racek-hut-and-glacier"> </referencia>
+            <referencia link="https://www.tripadvisor.es/Attraction_Review-g293948-d735790-Reviews-Ala_Archa_Gorge-Bishkek.html"> </referencia>
+        </referencias>
+
+        <hitos>
+            <hito nombre ="Broken heart" descripcion="Roca conocida como corazon roto" distancia ="1.5">
+                <coordenada longitud ="42.56107" latitud ="42.5561" altura ="2177"/> 
+                <fotos>
+                    <foto link="multimedia/imagenes/rutas/brokenHeart.jpg"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+
+            <hito nombre ="Ak-Sai river" descripcion="Rio alrededor de la ruta" distancia ="1.1">
+                <coordenada longitud ="74.50974" latitud ="42.55307" altura ="2782"/> 
+                <fotos>
+                    <foto link="multimedia/imagenes/rutas/ak-sai-river.jpg"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+
+             <hito nombre ="Ak-Sai Waterfall" descripcion="Cascada muy bonita" distancia ="1.1">
+                <coordenada longitud ="74.51770" latitud ="42.54634" altura ="2804"/> 
+                
+                <fotos>
+                    <foto link="multimedia/imagenes/rutas/ak-sai.jpg"> </foto>
+                </fotos>
+                <videos>     
+                </videos>
+            </hito>
+        </hitos>
+    </ruta>
+
+</rutas>

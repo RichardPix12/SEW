@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="es"><head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8">
+    <title> Noticias </title>
+    <meta name="author" content="Ricardo Marques">
+    <meta name="description" content="Pagina para cargar y crear noticias">
+    <meta name="keywords" content="leer, noticias, añadir">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css">
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css">
+    <link rel="stylesheet" type="text/css" href="estilo/noticias.css">
+    <script src="js/noticias.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1> Escritorio virtual </h1>
+    
+        <nav>
+            <a tabindex="1" title="Pagina principal" accesskey="p" href="index.html"> Pagina principal</a>
+            <a tabindex="2" title="Sobre mi" accesskey="s" href="sobremi.html"> Sobre mi</a>
+            <a tabindex="3" title="Agenda" accesskey="a" href="agenda.html"> Agenda</a>
+            <a tabindex="4" title="Noticias" accesskey="n" href="noticias.html"> Noticias</a>
+            <a tabindex="5" title="Meteorología" accesskey="m" href="meteorologia.html"> Meteorología</a>
+            <a tabindex="6" title="Juegos" accesskey="j" href="juegos.html"> Juegos</a>
+            <a tabindex="7" title="Viajes" accesskey="v" href="viajes.html"> Viajes</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section><h2>Noticias: </h2> <article> <h3>El aumento de la producción científica desborda de papeleo a la Universidad</h3><h4>El Rector promete cambiar el servicio de gestión y contratar personal</h4><p>A la Universidad de Oviedo le desborda el papeleo por el gran salto dado en investigación</p><p>Autor: Mónica Salas</p><p></p></article><article> <h3>La Universidad presume de equipos deportivos en una jornada ilusionante</h3><h4>La presentación tuvo lugar en el polideportivo universitario</h4><p>Ayer, por primera vez, todos los equipos deportivos de la Universidad de Oviedo realizaron una presentación conjunta</p><p>Autor: Juan Sanchez</p><p></p></article><article> <h3>Investigadores que se van por unos meses al otro lado, a la empresa</h3><h4>Deberían hacerlo todos los científicos, afirman un psicólogo y una informática</h4><p>Una cosa es colaborar con una empresa y otra bien diferente es poder trabajar en ella durante unos meses</p><p>Autor: Manuel Rodriguez</p><p></p></article><section><h3> Introduce tu noticia </h3><label for="titulo">Titulo: </label><textarea id="titulo" placeholder="Titulo de la noticia"></textarea><label for="encabezado">Encabezado: </label><textarea id="encabezado" placeholder="Encabezado de la noticia"></textarea><label for="cuerpo">Cuerpo: </label><textarea id="cuerpo" placeholder="Cuerpo de la noticia"></textarea><label for="autor">Autor: </label><textarea id="autor" placeholder="Autor de la noticia"></textarea><button onclick="noticias.crearNoticia()">Crear Noticia</button></section></section>
+    </main>
+
+</body></html>

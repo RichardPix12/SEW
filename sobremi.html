@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title> Escritorio Virtual, sobre mi </title>
+    <link rel="icon" href="multimedia/imagenes/favicon.ico">
+    <meta name ="author" content ="Ricardo Marques" />
+    <meta name ="description" content ="Pagina con información sobre el creador" />
+    <meta name ="keywords" content ="Ricardo, aficiones, cantantes, asignaturas,temperatura" />
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1> Escritorio virtual </h1>
+    
+        <nav>
+            <a tabindex="1" title="Pagina principal"  accesskey="p" href="index.html"> Pagina principal</a>
+            <a tabindex="2" title="Sobre mi"  accesskey="s" href="sobremi.html"> Sobre mi</a>
+            <a tabindex="3" title="Agenda"  accesskey="a" href="agenda.html"> Agenda</a>
+            <a tabindex="4" title="Noticias"  accesskey="n" href="noticias.html"> Noticias</a>
+            <a tabindex="5" title="Meteorología"  accesskey="m" href="meteorologia.html" > Meteorología</a>
+            <a tabindex="6" title="Juegos"  accesskey="j" href="juegos.html"> Juegos</a>
+            <a tabindex="7" title="Viajes"  accesskey="v" href="viajes.html" > Viajes</a>
+        </nav>
+
+    </header>
+
+   <!-- <main> -->
+        <section>
+            <h2>Datos personales</h2>
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/imagenes/sobremi/mifotoS.jpg" />
+                <source media="(max-width: 799px)" srcset="multimedia/imagenes/sobremi/mifotoM.jpg" />
+                <source media="(min-width: 800px)" srcset="multimedia/imagenes/sobremi/mifoto.jpeg" />
+                <img src ="multimedia/imagenes/sobremi/mifoto.jpeg" alt ="MiFoto"> 
+            </picture>
+            <p> Ricardo Marqués Garay</p>
+
+
+            <p>UO270160</p>
+            
+            <p>UO270160@uniovi.es</p>
+
+            <p> Buenas, mi nombre es Ricardo y estoy en mi ultimo año de la carrer. Es la segunda vez que curso esta asignatura. Vivo en Oviedo,
+                pero soy de un pueblo llamado Cudillero.
+            </p>
+        </section>
+
+        <section>
+            <h2>Lista de aficiones</h2>
+            <ul>
+                <li>Salir con mis amigos</li>
+                <li>Fiesta</li>
+                <li>Gimnasio</li>
+                <li>Ciclismo		</li>
+                <li>Deportes en equipo
+                        <ol>
+                            <li>Futbol</li>
+                            <li>Baloncesto</li>
+                        </ol>
+                </li>			
+                <li>Escuchar musica</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Cantantes favoritos y canciones favoritas</h2>
+
+            <picture>
+                <source media="(max-width: 465px)" srcset="multimedia/imagenes/sobremi/dukoS.png" />
+                <source media="(max-width: 799px)" srcset="multimedia/imagenes/sobremi/dukoM.jpg" />
+                <source media="(min-width: 800px)" srcset="multimedia/imagenes/sobremi/duko.jpg" />
+                <img src ="multimedia/imagenes/sobremi/duko.jpg" alt ="Duki"> 
+            </picture>
+
+            <ol>
+                <li>Duki
+                    <ul>
+                        <li>She dont give a fo</li>
+                        <li>Goteo</li>
+                        <li>Malbec</li>
+                    </ul>
+                </li>
+                <li>Quevedo
+                    <ul>
+                        <li>Wanda</li>
+                        <li>Playa del ingles</li>
+                        <li>Ahora 2</li>
+                    </ul>
+                </li>
+                <li>Saiko
+                    <ul>
+                        <li>Polaris Remix</li>
+                        <li>Supernova</li>
+                        <li>Buenas</li>
+                    </ul>
+                </li>      
+                <li>Recycled
+                    <ul>
+                        <li>150 canciones</li>
+                        <li>Aunque digan que yo</li>
+                        <li>Bambino</li>
+                    </ul>
+                </li>
+                <li>Mora
+                    <ul>
+                        <li>Modelito</li>
+                        <li>Memorias</li>
+                        <li>La inocente</li>
+                    </ul>
+                </li>
+            </ol>
+            <p>Mi cancion favorita de Duki es la siguiente</p>
+            <audio controls> 
+                <source src="multimedia/audios/sheDontGiveAFo.mp3" type="audio/mpeg">
+                <source src="multimedia/audios/sheDontGiveAFo.wav" type="audio/wav">
+            </audio>
+            <p>El video de la cancion</p>
+
+            <video controls preload="auto">
+                <source src="multimedia/videos/sheDontGiveAFo.mp4">
+                <source src="multimedia/videos/sheDontGiveAFo.webm">
+            
+            </video>
+
+        </section>
+
+        <section>
+            <h2>5 asignaturas favoritas de la carrera</h2>
+            
+            <dl>
+                <dt>SDI</dt>
+                <dd>La asignatura de Sistemas distribuidos e Internet pertenece a la materia Sistemas Informáticos. 
+                    A esta materia pertenece también la asignatura Sistemas Operativos (de cuarto semestre del grado), Seguridad de Sistemas Informáticos y Administración de sistemas y redes, que se cursan al mismo tiempo que ésta en el sexto semestre del grado.
+                </dd>
+
+                <dt>ASW</dt>
+                <dd>Esta asignatura se enmarca dentro de la materia de Ingeniería del Software y de forma transversal al módulo de Formación Específica (Ingeniería del Software).
+                     Dentro de esta también están las asignaturas de Ingeniería del Proceso Software, Diseño del Software, Calidad, Validación y Verificación del Software, Ingeniería de Requisitos y Modelado en Ingeniería del Software.
+                    </dd>
+
+                <dt>RI</dt>
+                <dd>Repositorios de información es una asignatura obligatoria que se enmarca dentro de la materia de “Sistemas de información y persistencia”.
+                     Su tipología organizativa sigue el “modelo D” en el que prima la parte práctica sobre la parte expositiva. Es una asignatura que temporalmente se enclava en el tercer año de la titulación, y que está relacionada especialmente con la asignatura anterior de Bases de Datos de segundo, y que incide especialmente en las asignaturas posteriores Administración de Sistemas y Redes, Seguridad de Sistemas Informáticos, Ingeniería de Requisitos y Sistemas de Información para la Web.
+                    </dd>
+
+                <dt>CPM</dt>
+                <dd>
+                    Esta asignatura se enmarca dentro de la materia de Interacción y Multimedia, y en el módulo Común de Informática. 
+                    Se imparte a continuación de la asignatura de "Tecnología y Paradigmas de Programación" del primer semestre. A esta materia corresponden también las asignaturas de "Software y Estándares para la Web", "Realidad y Accesibilidad Aumentadas" e "Informática Audiovisual".
+                </dd>
+
+                <dt>IPS</dt>
+                <dd>Esta asignatura se enmarca dentro de la materia de Ingeniería del Software, y en el módulo de Tecnología Específica en Ingeniería del Software.
+                     Se imparte a continuación de las asignaturas de Metodología de la Programación, Tecnología y Paradigmas de Programación, Bases de Datos y Comunicación Persona-Máquina de cursos anteriores.
+                      A esta materia corresponden también la asignatura de Diseño del Software, impartida en el mismo semestre, así como otras asignaturas obligatorias impartidas en posteriores semestres como Arquitectura del Software, Calidad, Validación y Verificación del Software e Ingeniería de Requisitos.
+                    </dd>
+            </dl>
+
+            <p>Para ver <a href="https://ingenieriainformatica.uniovi.es/infoacademica/grado#asignaturas">el listado de las asignaturas del grado</a></p>
+        </section>
+
+        <section>
+            <h2>Temperaturas medias anuales en mi ciudad, Oviedo</h2>
+
+            <table>
+                <caption>Temepraturas medias</caption>
+                <tr>
+                    <th scope="col" id="year">Año</th>
+                    <th scope="col" id="temp">Temperatura media</th>
+                </tr>
+                <tr>
+                    <th scope="row" id="2013" headers="year">2013</th>
+                    <td headers="2013 temp">12.3</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2014" headers="year">2014</th>
+                    <td headers="2014 temp">13.5</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2015" headers="year">2015</th>
+                    <td headers="2015 temp">13.4</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2016" headers="year">2016</th>
+                    <td headers="2016 temp">13.2</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2017" headers="year">2017</th>
+                    <td headers="2017 temp">13.3</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2018" headers="year">2018</th>
+                    <td headers="2018 temp">13.1</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2019" headers="year">2019</th>
+                    <td headers="2019 temp">13.2</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2020" headers="year">2020</th>
+                    <td headers="2020 temp">13.8</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2021" headers="year">2021</th>
+                    <td headers="2021 temp">13.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" id="2022" headers="year">2022</th>
+                    <td headers="2022 temp">14.0</td>
+                </tr>
+            </table>
+
+            <p>Para ver la <a href="https://www.tutiempo.net/clima/ws-80150.html">temperatura media en Oviedo</a></p>
+        </section>
+    <!--</main>-->
+
+</body>
+</html>

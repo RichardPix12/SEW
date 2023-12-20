@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+
+<html lang="pt">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title> Meteorologia </title>
+    <meta name ="author" content ="Ricardo Marques" />
+    <meta name ="description" content ="Prevision meteorologica del pais" />
+    <meta name ="keywords" content ="meteorologia" />
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <script src="js/pais.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1> Escritorio virtual </h1>
+    
+        <nav>
+            <a tabindex="1" title="Pagina principal"  accesskey="p" href="index.html"> Pagina principal</a>
+            <a tabindex="2" title="Sobre mi"  accesskey="s" href="sobremi.html"> Sobre mi</a>
+            <a tabindex="3" title="Agenda"  accesskey="a" href="agenda.html"> Agenda</a>
+            <a tabindex="4" title="Noticias"  accesskey="n" href="noticias.html"> Noticias</a>
+            <a tabindex="5" title="Meteorología"  accesskey="m" href="meteorologia.html" > Meteorología</a>
+            <a tabindex="6" title="Juegos"  accesskey="j" href="juegos.html"> Juegos</a>
+            <a tabindex="7" title="Viajes"  accesskey="v" href="viajes.html" > Viajes</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>Nombre del pais: <script>document.write(pais.getNombre())</script></h2>
+            <h3>Capital del pais: <script>document.write(pais.getCapital())</script></h3>
+            <h3>Poblacion del pais: <script>document.write(pais.getPoblacion())</script></h3>
+
+            <h3>Coordenadas</h3>
+            <script>pais.getCoordenadas()</script>
+            <h3>Mas info</h3>
+            <script>document.write(pais.getSecundario())</script>
+        </section>
+        <section>
+            <h2>Meteorologia del pais</h2>
+            <script>pais.getMeteorologia()</script>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title> Viajes </title>
+    <meta name ="author" content ="Ricardo Marques" />
+    <meta name ="description" content ="Pagina para ver destinos de viaje" />
+    <meta name ="keywords" content ="viajes" />
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/viajes.css" />
+    <script src="js/viajes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1> Escritorio virtual </h1>
+    
+        <nav>
+            <a tabindex="1" title="Pagina principal"  accesskey="p" href="index.html"> Pagina principal</a>
+            <a tabindex="2" title="Sobre mi"  accesskey="s" href="sobremi.html"> Sobre mi</a>
+            <a tabindex="3" title="Agenda"  accesskey="a" href="agenda.html"> Agenda</a>
+            <a tabindex="4" title="Noticias"  accesskey="n" href="noticias.html"> Noticias</a>
+            <a tabindex="5" title="Meteorología"  accesskey="m" href="meteorologia.html" > Meteorología</a>
+            <a tabindex="6" title="Juegos"  accesskey="j" href="juegos.html"> Juegos</a>
+            <a tabindex="7" title="Viajes"  accesskey="v" href="viajes.html" > Viajes</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=viajes.getMapaDinamico"></script>
+    </main>
+        <section data-name="mapaEstatico">
+            <h3>Obtener mapa estatico</h3>
+            <label for='mapaEstatico'>Mapa estatico: </label>
+            <input type="button" id="mapaEstatico" value="Obtener mapa estatico" onClick = "viajes.getMapaEstatico()" />
+        </section>
+        <section data-name="procesXml">
+            <h3>Introduce el archivo XML</h3>
+            <label for='archivosXml'>Archivos XML: </label>
+            <input type="file" id="archivosXml" name="archivosXml" onchange="viajes.leerArchivoXml(this.files);">
+        </section>
+        <section data-name="procesaKml">
+            <h3>Introduce los archivos KML</h3>
+            <label for='archivosKml'>Archivos KML: </label>
+            <input type="file" id="archivosKml" name="archivosKml" onchange="viajes.convierteKml(this.files);" multiple>
+        </section>
+        <section data-name="procesaSvg">
+            <h3>Introduce los archivos SVG</h3>
+            <label for='archivosSvg'>Archivos SVG: </label>
+            <input type="file" id="archivosSvg" name="archivoSvg" onchange="viajes.convierteSvg(this.files);" multiple>
+        </section>
+
+</body>
+</html>

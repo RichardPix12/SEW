@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- Datos que describen el documento -->
+        <meta charset="UTF-8" />
+        <title>Api</title>
+        <meta name="author" content="Ricardo Marques Garay" />
+        <meta name="description" content="Aplicacion para poner marcadores en un mapa" />
+        <meta name="keywords" content="api" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="estilo/estilo.css">
+        <link rel="stylesheet" href="estilo/layout.css">
+        <link rel="stylesheet" href="estilo/api.css">
+        <script src="js/api.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        
+    </head>
+
+
+    <body onload="api.loadMap()">
+
+        <header>
+            <h1> Escritorio virtual </h1>
+        
+            <nav>
+                <a tabindex="1" title="Pagina principal"  accesskey="p" href="index.html"> Pagina principal</a>
+                <a tabindex="2" title="Sobre mi"  accesskey="s" href="sobremi.html"> Sobre mi</a>
+                <a tabindex="3" title="Agenda"  accesskey="a" href="agenda.html"> Agenda</a>
+                <a tabindex="4" title="Noticias"  accesskey="n" href="noticias.html"> Noticias</a>
+                <a tabindex="5" title="Meteorología"  accesskey="m" href="meteorologia.html" > Meteorología</a>
+                <a tabindex="6" title="Juegos"  accesskey="j" href="juegos.html"> Juegos</a>
+                <a tabindex="7" title="Viajes"  accesskey="v" href="viajes.html" > Viajes</a>
+            </nav>
+    
+        </header>
+
+        <h1>Marcador de puntos en mapa de google maps</h1>
+    <section>
+        <h2>Introduce coordenadas</h2>
+        <label for="latitud">Latitud: <input id="latitud" name="latitud" type="text" /></label> 
+        <label for="longitud">Longitud: <input id="longitud" name="longitud"  type="text" /></label> 
+        <input type="submit" value="Pegar" onclick="api.pegarUbicacion()" /> <input type="submit" value="Colocar marcador" onclick="api.ponerMarcador()" />
+        <h2>Cargar geoJson</h2>
+        <label for="archivo">Archivo: <input type="file" id="archivo" name="archivo" onchange="api.loadFile(this.files);" ></label>
+        <input  type="submit" value="Reiniciar mapa" onclick="api.reiniciarMapa()" />
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMHhiNlERmmIzNph9c7JJtFyl5Ieai7qA&libraries=places"></script>
+    </section>
+    <section>
+        <h2>Ejemplos para copiar</h2>
+        <ul>
+            <li>Tu ubicación <input type="submit" value="Copiar a portapapeles" onclick="api.copiarUbicacion()"/></li>
+            <li>Oviedo(43.37,-5.847)<input type="submit" value="Copiar a portapapeles" onclick="api.copiarOviedo()" /></li>
+            <li>Madrid(40.44,-3.65) <input type="submit" value="Copiar a portapapeles" onclick="api.copiarMadrid()"  /></li>
+            <li>Tokyo(35.48,137.12) <input type="submit" value="Copiar a portapapeles" onclick="api.copiarTokyo()" /></li>
+
+        </ul>
+    </section>
+    <main>
+
+    </main>
+
+        
+    </body>
+</html>

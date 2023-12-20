@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+   
+    <name>Ruta de la seda</name>
+    
+    <Placemark>
+        <name>Torre de Burana</name>
+        <Point>
+            <coordinates>75.2502,42.7464,2800</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Torre de Burana</name>
+        <Point>
+            <coordinates>75.2502,42.7464,2800</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <name>Mausoleo Shah-Fazil</name>
+        <Point>
+            <coordinates>71.6589,41.4286,4484</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <name>Tash Rabat</name>
+        <Point>
+            <coordinates>75.2683,40.8775,3752</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <LineString>
+            <coordinates>75.2502,42.7464,2800 71.6589,41.4286,4484 75.2683,40.8775,3752</coordinates>
+        </LineString>
+    </Placemark>
+        
+</Document>
+</kml>

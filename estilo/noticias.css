@@ -1,0 +1,10 @@
+/* Especifidad: 001 */
+section{
+    display: flex;
+    flex-direction: column;
+
+}
+/* Especifidad: 001 */
+textarea, button{
+    width: 50vw;
+}

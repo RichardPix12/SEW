@@ -1,0 +1,37 @@
+/* Especifidad: 001 */
+main {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 0;
+    width:75vw;
+    height: 50vh;
+}
+  
+/* Especifidad: 001 */
+p{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid gray;
+    /* Se hereda el color de letra de estilos.css*/
+    background-color: white;
+    font-weight: bold;
+}
+/* Especifidad: 011 */
+p[data-state = empty]{
+    /* Se hereda el color de letra de estilos.css*/
+    background-color: black;
+}
+
+/* Especifidad: 001 */
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+/* Especifidad: 001 */
+input, button{
+    width: 50vw;
+}

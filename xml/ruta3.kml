@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+   
+    <name>Ak-Sai Waterfall</name>
+    
+    <Placemark>
+        <name>Parque nacional Ala Archa</name>
+        <Point>
+            <coordinates>74.4837,42.56107,2104</coordinates>
+        </Point>
+    </Placemark>
+
+    <Placemark>
+        <name>Broken heart</name>
+        <Point>
+            <coordinates>74.4919,42.5561,2177</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <name>Ak-Sai river</name>
+        <Point>
+            <coordinates>74.50974,42.55307,2782</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <name>Ak-Sai Waterfall</name>
+        <Point>
+            <coordinates>74.51770,42.54634,2804</coordinates>
+        </Point>
+    </Placemark>
+        
+    <Placemark>
+        <LineString>
+            <coordinates>74.4837,42.56107,2104 74.4919,42.5561,2177 74.50974,42.55307,2782 74.51770,42.54634,2804</coordinates>
+        </LineString>
+    </Placemark>
+        
+</Document>
+</kml>

@@ -1,0 +1,126 @@
+ /* 
+	datos personales 
+ 
+	Ricardo Marqués Garay
+	UO270160
+
+	Red
+	#770909
+
+	Black
+	#0A0A00
+
+	Celadon
+	#A8BBB0
+
+	Ivory
+	#EBE8E0
+ */
+
+/* Especifidad: 001 */
+body{
+	font-family: Arial, sans-serif;
+	color: #000000;
+	background-color: #A8BBB0;
+}
+
+/* Especifidad: 001 */
+h1{
+	font-size: 3rem;
+}
+
+/* Especifidad: 001 */
+h2{
+	font-size: 2rem;
+}
+
+ /* Especifidad: 001 */
+h3{
+	font-size: 1.5rem;
+}
+
+/* Especifidad: 001 */
+header, section,article{
+	/* Hereda color de body : #000000*/
+	background-color: #EBE8E0;
+	padding: 0rem 0rem 1rem 1rem;
+}
+/* Especifidad: 011 */
+a:link{
+	/* Hereda background-color de header y section: #EBE8E0 */ 
+	color: #770909;
+}
+
+/* Especifidad: 011 */
+a:visited{
+	/* Hereda background-color de header y section: #EBE8E0 */ 
+	color: #510297;
+}
+
+/* Especifidad: 001 */
+ol{
+	font-weight: bold;
+}
+
+/* Especifidad: 002 */
+ol>li{
+	font-weight: bold;
+}
+
+/* Especifidad: 001 */
+ul{
+	font-weight: bold;
+}
+
+/* Especifidad: 012 */
+ul:nth-child(2)>li:nth-child(3) {
+	/* Hereda background-color de header y section: #EBE8E0 */ 
+	color: blue;
+}
+
+/* Especifidad: 001 */
+dl{
+	padding: 1rem;
+}
+
+/* Especifidad: 001 */
+dt{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/* Especifidad: 001 */
+dd{
+	/* Hereda color de body : #000000*/
+	background-color: #A8BBB0;
+}
+
+/* especifidad: 001 */
+table {
+    padding: 1em 1em;
+}
+
+
+/* especifidad: 001 */
+
+th {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 1.2em;
+}
+
+/* especifidad: 001 */
+td {
+    background-color: white;
+    color: black;
+    border: 0.1em solid rgb(0, 0, 0);
+    border-spacing: 0.5em 0.5em;
+    font-size: 1.2em;    
+	
+}
+
+/* especifidad: 001 */
+video {
+	max-width: 100%;
+	height: auto;
+}

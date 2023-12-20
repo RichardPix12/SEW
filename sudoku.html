@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title> Sudoku </title>
+    <meta name ="author" content ="Ricardo Marques" />
+    <meta name ="description" content ="Juego matematico donde no debes repetir numero en una misma fila, columna o cuadricula" />
+    <meta name ="keywords" content ="sudoku, juego" />
+
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/sudoku.css" />
+    <script src="js/sudoku.js" ></script>
+</head>
+
+<body>
+    <!-- Datos con el contenidos que aparece en el navegador -->
+    <header>
+        <h1> Escritorio virtual </h1>
+    
+        <nav>
+            <a tabindex="1" title="Pagina principal"  accesskey="p" href="index.html"> Pagina principal</a>
+            <a tabindex="2" title="Sobre mi"  accesskey="s" href="sobremi.html"> Sobre mi</a>
+            <a tabindex="3" title="Agenda"  accesskey="a" href="agenda.html"> Agenda</a>
+            <a tabindex="4" title="Noticias"  accesskey="n" href="noticias.html"> Noticias</a>
+            <a tabindex="5" title="Meteorología"  accesskey="m" href="meteorologia.html" > Meteorología</a>
+            <a tabindex="6" title="Juegos"  accesskey="j" href="juegos.html"> Juegos</a>
+            <a tabindex="7" title="Viajes"  accesskey="v" href="viajes.html" > Viajes</a>
+        </nav>
+
+    </header>
+   
+   <main>
+        
+        <script> 
+            sudoku = new Sudoku()
+            sudoku.addKeyDownEvent()
+        </script>
+    </main>
+
+</body>
+</html>

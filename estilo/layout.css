@@ -1,0 +1,26 @@
+/* 
+	datos personales 
+ 
+	Ricardo Marqués Garay
+	UO270160
+
+*/
+    
+/* Especifidad: 001 */
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media (max-width: 465px) {
+	    
+/* Especifidad: 001 */
+	nav{
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+	}
+	
+}
